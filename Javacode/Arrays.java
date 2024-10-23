@@ -1,3 +1,4 @@
+
 public class Arrays{
 
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Arrays{
         int[] marks={45,55,67};
         //2d array
         int[][] finalm={{1,2,3,4,5},{67,12,45,56,33}};
-        System.out.println(finalm[0][2]);
+        System.out.println(finalm[0][3]);
 
     }
 } 
