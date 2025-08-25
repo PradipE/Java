@@ -1,4 +1,4 @@
-class Student{
+  class Student{
     //So these all are private variable that only read and write only inside this class
      private  String name;
 

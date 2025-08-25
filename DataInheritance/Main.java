@@ -31,7 +31,7 @@ class Car extends Vehicle
     
 }
 
-class Main{
+public class Main{
     public static void main(String[] args) {
         Car thar = new Car();
         thar.setHasEngine(true);
