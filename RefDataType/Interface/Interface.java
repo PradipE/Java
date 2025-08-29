@@ -1,4 +1,4 @@
-package Interface;
+
  interface Person
 {
    public String profession(); 
