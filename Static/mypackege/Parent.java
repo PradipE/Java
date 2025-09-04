@@ -1,6 +1,8 @@
-//This is ex of static methos can't be overridden
-class Parent {
-    static void show() {
+package mypackege;
+
+public class Parent {
+
+    public static void show() {
         System.out.println("Parent static method");
     }
 }
