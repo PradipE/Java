@@ -1,4 +1,4 @@
-package classespackege;
+package abstactclass;
 
 public abstract  class  ExtendsAbstactM extends AbstactClass {
 

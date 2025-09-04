@@ -1,6 +1,6 @@
 
 //this is ex of concrete class
-package classespackege;
+package concreteclass;
 
 public class ConcreteClass {
     

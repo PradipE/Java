@@ -1,4 +1,4 @@
-package classespackege;
+package concreteclass;
 
 public class Car extends ConcreteClass {
 
