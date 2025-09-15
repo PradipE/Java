@@ -1,8 +1,6 @@
 
-import genericclass.Main;
-import genericclass.MultiBound;
-import genericclass.RawGenericClass;
-
+// import genericclass.MultiBound;
+// import genericclass.RawGenericClass;
 public class Main {
 
     public static void main(String[] args) {
@@ -17,6 +15,8 @@ public class Main {
         // m.setMillage(13);
         // System.out.println("Millage is: "+m.getMillage());
         // m.pressClutch();
+
+
         // //the Objecttest hav't any parent or super class .But we can have a by defult super or parent class that is object ;
         // Object obj1 = new ObjectTestClass(12);
         // System.out.println(obj1.getClass());
@@ -48,20 +48,49 @@ public class Main {
         // obj3.set(24,"Pradip Mondal");
         // System.out.println(obj3.getKey()+" -> "+obj3.getValue());
         //This is normal way of object creation 
-        RawGenericClass<String> parameterGenericObj = new RawGenericClass<>();
-        //this is ex of raw type of an generic class objet creation
-        //But the raw type genric class object creation does't work in real life
+        // RawGenericClass<String> parameterGenericObj = new RawGenericClass<>();
+        // //this is ex of raw type of an generic class objet creation
+        // //But the raw type genric class object creation does't work in real life
 
-        RawGenericClass rawObjCreation = new RawGenericClass();
+        // RawGenericClass rawObjCreation = new RawGenericClass();
 
-        rawObjCreation.setValue(12);
-        rawObjCreation.setValue("Pradip");
+        // rawObjCreation.setValue(12);
+        // rawObjCreation.setValue("Pradip");
 
-        System.out.println(rawObjCreation.getValue());
+        // System.out.println(rawObjCreation.getValue());
 
         // MultiGeneric<MultiBound> multiObj = new MultiGeneric<>();
         // multiObj.setValue(new MultiBound(22));
         // multiObj.getValue();
+        //find the values that are in enum class variable
+        //ordinal() is use to find the defualt numbering that are fixed by jdk
+      // for(EnumClass sample : EnumClass.values())
+      // {
+      //   System.out.println(sample.ordinal());
+      // }
+      // EnumClass enumVar =EnumClass.valueOf("Monday");
+      // System.out.println(enumVar.name());
+      // System.out.println(enumVar.ordinal());
+
+      //Enum costumm values 
+      // EnumClass sampleEnum = EnumClass.getEnumFromVal(109);
+      
+      // System.out.println(sampleEnum.getData());
+
+      // //Enum override Method
+      // EnumClass dummyObj = EnumClass.Tuesday;
+      // dummyObj.defualtMethos();
+
+
+      // //Enum Abstract class
+      // EnumClass abstactObj = EnumClass.Sunday;
+      // abstactObj.dummyAbstactMethod();
+       
+
+      //Enum implements Interface
+      // EnumClass interfaceObj = EnumClass.Monday;
+      // System.out.println(interfaceObj.toLowerCase());
+
 
     }
 }
