@@ -1,6 +1,9 @@
 
 // import genericclass.MultiBound;
 // import genericclass.RawGenericClass;
+
+import .singletonClass.SingletonClass;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -90,6 +93,12 @@ public class Main {
       //Enum implements Interface
       // EnumClass interfaceObj = EnumClass.Monday;
       // System.out.println(interfaceObj.toLowerCase());
+
+      //Singleton Egerclass 
+
+      SingletonClass dbConnectionObject = singletonClass.SingletonClass.getData();
+
+ 
 
 
     }
