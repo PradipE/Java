@@ -12,7 +12,7 @@ public class ConcreteClass {
        this.empId =0;
     }
     
-    public void   setEmpId(int empId)
+    public void  setEmpId(int empId)
     {
         
         this. empId=empId;

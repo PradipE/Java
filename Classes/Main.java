@@ -1,8 +1,8 @@
 
 // import genericclass.MultiBound;
 // import genericclass.RawGenericClass;
-
-import .singletonClass.SingletonClass;
+import nestedclass.Anonymous;
+import singletonClass.SingletonClass;
 
 public class Main {
 
@@ -32,12 +32,12 @@ public class Main {
         // object1.displayLocalInner();
         // NestedClass.InheritEx2 inheritObj = object1.new InheritEx2();
         // inheritObj.displayInherit1();
-        // Anonymous objAnon = new Anonymous() {
-        //   public void pressBreak()
-        //   {
-        //      System.out.println("Press Break when slow down");
-        //   }
-        // };
+        Anonymous objAnon = new Anonymous() {
+          public void pressBreak()
+          {
+             System.out.println("Press Break when slow down");
+          }
+        };
         // objAnon.pressBreak();
         // GenericClass<Integer>  obj1 = new GenericClass<>();
         // GenericClass<String>  obj = new GenericClass<>();
@@ -96,7 +96,7 @@ public class Main {
 
       //Singleton Egerclass 
 
-      SingletonClass dbConnectionObject = singletonClass.SingletonClass.getData();
+      SingletonClass dbConnectionObject = singletonClass.SingletonClass.dbObj2();
 
  
 
